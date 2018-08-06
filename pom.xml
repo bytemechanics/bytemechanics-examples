@@ -6,7 +6,7 @@
 		<artifactId>bytemechanics-maven</artifactId>
 		<version>1.0.6</version>
 	</parent>
-	<artifactId>bytemechanics-examples</artifactId>
+    <artifactId>bytemechanics-examples</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
     <properties>
@@ -43,9 +43,9 @@
 		<connection>https://github.com/bytemechanics/bytemechanics-examples.git</connection>
 		<url>https://github.com/bytemechanics/bytemechanics-examples</url>
 	</scm>
-
+	
 	<modules>
         <module>example-api</module>
-	 <module>example-builder</module>
+		<module>example-builder</module>
 	</modules>
 </project>
